@@ -1,4 +1,4 @@
-# ChatBot Flow Builder
+# Chatbot Flow Builder
 
 ChatBot Flow Builder is a web application built with React that allows users to visually create and customize chatbot conversation flows.
 
