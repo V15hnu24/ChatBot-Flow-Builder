@@ -86,9 +86,7 @@ const FlowBuilder = () => {
       (node) => !edges.some((edge) => edge.source === node.id)
     );
     if (nodesWithEmptyTargets.length > 1) {
-      return `Error: Multiple nodes have empty target handles: ${nodesWithEmptyTargets
-        .map((node) => node.id)
-        .join(", ")}`;
+      return "Error: Multiple nodes have empty target handles";
     }
     return null;
   };
